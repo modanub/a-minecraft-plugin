@@ -1,0 +1,12 @@
+name: "Manager"
+version: 1.0.0
+main: net.modanub.manager.Main
+api-version: '1.8.9'
+commands:
+  refresh:
+    description: "Reload all cached data"
+    usage: "/refresh"
+  permission:
+    description: "Permission command"
+    usage: "/permission <args>"
+    aliases: [rank, permissions, perms]
